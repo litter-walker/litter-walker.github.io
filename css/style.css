@@ -1,7 +1,11 @@
 /*region header和footer样式*/
 #page-header,
+#page-header:not(.not-top-img):before {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
 #footer {
-    background-color: rgba(0, 0, 0, 0.16);
+    background-color: rgba(0, 0, 0, 0.2);
 }
 
 [data-theme='dark'] #web_bg:before,
