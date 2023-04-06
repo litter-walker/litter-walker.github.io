@@ -1,10 +1,15 @@
 /*region header和footer样式*/
 #page-header {
-    background: transparent;
+    background: transparent!important;
+}
+[data-theme='dark'] #page-header:before,
+[data-theme='dark'] #web_bg:before,
+[data-theme='dark'] #footer:before {
+    background-color: rgba(0, 0, 0, 0.3);;
 }
 
 #footer {
-    background: transparent;
+    background: transparent!important;
 }
 /*endregion*/
 
