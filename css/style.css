@@ -1,6 +1,11 @@
 /*region header和footer样式*/
 #page-header,
-#page-header:(.not-top-img):before {
+#page-header:not(.not-top-img):before {
+    background-color: rgba(0, 0, 0, 0.2);;
+}
+
+.post > #page-header,
+.post > #page-header:not(.not-top-img):before {
     background: transparent!important;
 }
 
